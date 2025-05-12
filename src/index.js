@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-// import AppProfile from "./AppProfile";
-// import AppCounter from "./AppCounter";
-// import AppProduct from "./AppProduct";
+// import AppProfile from "./basic/AppProfile";
+// import AppCounter from "./basic/AppCounter";
+import AppProduct from "./basic/AppProduct";
 import AppXY from "./AppXY";
 import AppMentor from "./AppMentor";
 import AppMentors from "./AppMentors";
@@ -17,7 +17,7 @@ import AppMentorsButton from "./AppMentorsButton";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppMentorsButton />
+    <AppProduct />
   </React.StrictMode>
 );
 
